@@ -1,0 +1,44 @@
+
+in this application we have two main departments are
+Revenue Generating Departments
+Administrative Departments
+the employees in the revenue generating department is direct billable to the clients because in taht we will have the calculation of the resources values which we have used to do service to teh clients. and the employees in the administrative department will be working indirectly for the client like collection the info during the meeting and the people from teh managemnet also considered under the administrative department.
+first normally we will bw calculating the vaule for the both department normally upto (Total Direct Cost + Total Variable cost + Total Fixed Cost depreciation).
+so after that we will sum the values of (Total Direct Cost + Total Variable cost + Total Fixed Cost depreciation) of the employees in teh administartive department and divide it into the revenue genrating departmnet like the if the sum value is 100000 and if the no of employee in revenue genrating department is 5 we need to calcualting it like sum value of the (Total Direct Cost + Total Variable cost + Total Fixed Cost depreciation) of teh employees in teh administartive departmnet divided by the tot no of employee in teh revenue generating department and saved in the name as semi variable cost per month for each employee in revenue genrating department only.
+then find teh sum value of Total Direct Cost + Total Variable cost + Total Fixed Cost depreciation + semi variable cost
+then find the Fully Loaded Cost Per Employee for 2026 (Cost per hour) by calculating the Cost per hour (Direct) by dividing the total value of the direct cost monthly of that respective employee, divided by that employee's working hours for a month eg: if the direct cost total value is 34963 and teh working hours for a month of taht employee is 160 hours divide the direct cost total by working hours of that employee for a month Cost per hour (Indirect) (A), for this we need the sum of the (total varaible cost monthly and teh fixed cost depreciation monthly) of that respective employee, then divide by the working hours of that employee for a month
+Cost per hour (Indirect)- Apportionment from Adminstrative Department (B) , for this same we need to take teh cost per month of the semi varaible cost of the a employee divide it by the working hours of that employee for a month
+Total Indirect Cost Per Hour (A) + (B) , add the values and finally add teh value of (A)+(B) with the cost per hour (direct) (ie) is the Fully Loaded Cost (Per hour)
+if we want to calculate Fully Loaded Cost Per Employee for 2026 (Cost per Month) multiple the values from the cost per hour table with 160 and then add it.
+Now how to find the ratio value is the working hours is the base for this
+lets consider in the in the revenue generating department there 4 employees and in the administrative department tehre are 2 employees and in teh reserve department tehre 2 members
+now we need to we need to take the each employee tot working hours for a month individual in teh department In revenue generating department emp1 = 160 , emp 2 = 160, emp3 =160 , emp4 = 160
+In administrative department emp1 = 160 , emp 2 = 160
+the total will be like In revenue generating department : total working hours of teh employee is =640 n administrative department: total working hours of teh employee is =320
+now we need to find the ratio value (i.e.) 640:320 = 2:1
+now we need to calculate the ratio: (ratio vaule of the revenue generating department/ total ratio value) * (ratio value of administrative department / (no of employees in revenue generating + no of employees in reserve department)
+so we get like (2/3)(1/(4+2)) = (2/3)(1/6) = 1/9 = 0.111
+this ratio will change is the no of employee increase are decrease.
+
+
+
+and another info is teh working hours of the employee for a month may change that depends on which month we are calcualting teh FLC
+
+Qns
+What exactly is the Reserve Department?
+Is it a separate department type?
+Or is "Reservation" a department under Revenue Generating?
+Will the system calculate the ratio automatically, or will the ratio already be available in the uploaded Excel and only be imported?
+During upload:
+Can admins edit imported values before calculation?
+Or is the uploaded data read-only and only reviewable?
+When Version 2 is generated for the same financial year:
+Are all calculations regenerated from scratch?
+Or only for the newly joined employee?
+
+Ans​‌
+
+q1) is a separate department it will not be introduced in teh FLC calculation ,except the ratio calculation part.
+q2) the ratio is calculated based on the no of employees in each department because the ratio calculation is based on the employee workinh hours and teh employee count because fi teh employee count increases we will get a different ration.
+q3) Can admins edit imported values before calculation
+q4) all calculations regenerated from scratch for employees including the mew employee
